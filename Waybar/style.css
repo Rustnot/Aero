@@ -156,7 +156,7 @@ background:rgba(0,0,0,0.5);
     margin-right: 8px;
     padding: 10px 10px;
     font-size: 20px;
-    background-image:url('/home/rambleon/.config/waybar/icons/archlinux.svg');
+    background-image:url('~/.config/waybar/icons/archlinux.svg');
     background-size:contain;
     background-position:center;
     background-repeat: no-repeat;
@@ -168,14 +168,14 @@ background:rgba(0,0,0,0.5);
 #custom-os:hover {
     color: #ffffff;
     font-size:40px;
-    background-image:url('/home/rambleon/.config/waybar/icons/arch.svg');
+    background-image:url('~/.config/waybar/icons/arch.svg');
     background-color:rgba(0,0,0,1);
     /*background:rgba(0,0,0,1);*/ 
 }
 #custom-os:active {
 color:#ffffff;
  font-size:40px;
-background-image:url('/home/rambleon/.config/waybar/icons/riot.svg');
+background-image:url('~/.config/waybar/icons/riot.svg');
 
 }
 #cpu{
@@ -188,7 +188,7 @@ background:rgba(255,255,255,0.41);
 /*background:rgba(0,0,0,0.1);*/
 border-radius:4px;
 border-color:#ffffff;
-background-image:url('/home/rambleon/.config/waybar/icons/speed.svg');
+background-image:url('~/.config/waybar/icons/speed.svg');
 background-position:center;
 background-repeat:no-repeat;
 background-size:contain;
@@ -202,7 +202,7 @@ color:#cacbcf;
 
 }
 #memory {
-background-image:url('/home/rambleon/.config/waybar/icons/Mem.svg');
+background-image:url('~/.config/waybar/icons/Mem.svg');
 background-position:center;
 background-repeat:no-repeat;
 background-size:contain;
@@ -210,7 +210,7 @@ background-color:rgba(255,255,255,0.01);
 padding: 5px 1px;
 }
 #network {
-background-image:url('/home/rambleon/.config/waybar/icons/ab.svg');
+background-image:url('~/.config/waybar/icons/ab.svg');
 background-position:center;
 background-repeat:no-repeat;
 background-size:contain;
@@ -221,7 +221,7 @@ color:#ffffff;
 #custom-launcher{
         font-size: 30px;
 	background:rgba(255,255,0,0.7);
-        background-image: url('/home/rambleon/firefox.png');
+        background-image: url('~/.config/waybar/icons/firefox.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -243,7 +243,7 @@ color:#ffffff;
 #custom-power button{
 font-size:44px;
 background-color:#cacbcf;
-background-image:url('/home/rambleon/.config/waybar/icons/xchat.svg');
+background-image:url('~/.config/waybar/icons/xchat.svg');
 background-position:center;
 background-repeat:no-repeat;
 background-size:contain;
