@@ -1,0 +1,126 @@
+* {
+  font:   "Iosevka Nerd Font Medium 8";
+
+  bg0     : #000000;
+  bg1     : #000000;
+  bg2     : #24283b;
+  bg3     : #414868;
+  fg0     : #ffffff;
+  fg1     : #a9b1d6;
+  fg2     : #737aa2;
+  red     : #fff000;
+  green   : #9ece6a;
+  yellow  : #e0af68;
+  blue    : #7aa2f7;
+  magenta : #9a7ecc;
+  cyan    : #4abaaf;
+
+  accent: @red;
+  urgent: @yellow;
+
+  background-color : transparent;
+  text-color       : @fg0;
+
+  margin  : 5px;
+  padding : 0;
+  spacing : 10px;
+}
+
+element-icon, element-text, scrollbar {
+  cursor: pointer;
+}
+
+window {
+  location : west;
+  width    : 250px;
+  x-offset : 2px;
+  y-offset : 80px;
+
+  background-color: @bg1;
+  border: 0px;
+  border-color: @bg3;
+  border-radius: 20px;
+background-color:rgba(0,0,0,0.9);
+}
+
+inputbar {
+  spacing  : 8px;
+  padding  : 4px 8px;
+  children : [ icon-search, entry ];
+
+  background-color:rgba(0,0,0,0.8);
+border-radius:20px;
+
+}
+
+icon-search, entry, element-icon, element-text {
+  vertical-align: 0.5;
+}
+
+icon-search {
+  expand   : false;
+  filename : "search-symbolic";
+  size     : 14px;
+}
+
+textbox {
+  padding          : 8px 8px;
+  background-color : @bg2;
+  text-color : @bg0;
+}
+
+listview {
+  padding      : 0px 0px;
+  lines        : 10;
+  columns      : 1;
+  scrollbar    : false;
+  fixed-height : false;
+  dynamic      : true;
+  background-color:#000000;
+  border-radius:20px;
+}
+
+element {
+  padding : 4px 4px;
+  spacing : 4px;
+  background-color:#000000;
+border-radius:10px;
+}
+
+element normal urgent {
+  text-color: @urgent;
+}
+
+element normal active {
+  text-color: @accent;
+}
+
+element alternate active {
+  text-color: @accent;
+}
+
+element selected {
+  text-color       : @bg1;
+  background-color : @accent;
+}
+
+element selected urgent {
+  background-color: @urgent;
+}
+
+element-icon {
+  size: 0.8em;
+}
+
+element-text {
+  text-color: inherit;
+  
+}
+
+scrollbar {
+  handle-width : 0px;
+  handle-height : 5px;
+  handle-color : #fff000;
+  padding      : 0 4px;
+  background-color : transparent;
+}
